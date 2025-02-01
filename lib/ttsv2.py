@@ -45,8 +45,9 @@ def text_to_speech(text,audio_file, lang='zh'):
 print("run....")
 audio_file="\"/tts3500cnchar/我.wav\""
 # text_to_speech("普通消息","普通消息.wav")
-text_to_speech("普通消息普通消息","普通消息普通消息.wav")
-text_to_speech("我的消息我的消息我的消息","我的消息我的消息我的消息.wav")
+#text_to_speech("普通消息普通消息","普通消息普通消息.wav")
+text_to_speech("网络连接警告网络连接警告网络连接警告","网络连接警告.mp3")
+text_to_speech("星标联系人消息星标联系人消息","星标联系人消息.mp3")
 cmd=f" start {audio_file}"
 os.system(cmd  )
 
