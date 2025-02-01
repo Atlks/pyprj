@@ -42,8 +42,12 @@ def text_to_speech(text,audio_file, lang='zh'):
 
 
 # Example usage
+print("run....")
 audio_file="\"/tts3500cnchar/我.wav\""
-text_to_speech("我","/tts3500cnchar/我.wav")
+# text_to_speech("普通消息","普通消息.wav")
+text_to_speech("普通消息普通消息","普通消息普通消息.wav")
+text_to_speech("我的消息我的消息我的消息","我的消息我的消息我的消息.wav")
 cmd=f" start {audio_file}"
 os.system(cmd  )
 
+# C:\Progrm\Python313\python.exe  c:\0prj\pyprj\lib\ttsv2.py
