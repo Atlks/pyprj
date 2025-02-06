@@ -7,6 +7,8 @@ import subprocess
 # gTTS（Google Text-to-Speech）库来将文本转换为语音，默认输出格式是MP3。
 # C:\Users\attil\AppData\Local\Programs\Python\Python313\Scripts\pip.exe  install gtts
 # // pip install gtts
+# pip install pipwin    pipwin install pyaudio
+#  pip install pyaudio
 # C:\Users\attil\AppData\Local\Programs\Python\Python313\Scripts\pip.exe  install pydub
 """
   将文本转换为语音，并保存为音频文件。
@@ -78,6 +80,10 @@ audio_file="\"/tts3500cnchar/我.wav\""
 #text_to_speech("网络连接警报","网络连接警报.mp3")
 #text_to_speech("tg消息","tg消息.mp3")
 msg="测试消息"
+msg="滴滴打卡tg群滴滴打卡tg群"
+msg="滴滴普通消息普通消息"
+#msg="滴滴我的消息我的消息"
+msg="滴滴重要消息重要消息"
 MP3file = "c:/cfg/"+msg+".mp3"
 text_to_speech(msg,MP3file)
 #,MP3file+".wav"
@@ -94,3 +100,4 @@ convert_to_wav(MP3file)
 # C:\Users\attil\AppData\Local\Programs\Python\Python312\Scripts\pip3.12.exe  install gtts
 # C:\Progrm\Python312\Scripts\pip3.12.exe  install pydub
 # ffmpeg  -i  网络连接警报.mp3  网络连接警报.mp3.wav
+#C:\Users\attil\AppData\Local\Programs\Python\Python312\python.exe  c:\0prj\pyprj\lib\ttsv3.py
