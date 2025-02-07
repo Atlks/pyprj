@@ -84,6 +84,7 @@ msg="滴滴打卡tg群滴滴打卡tg群"
 msg="滴滴普通消息普通消息"
 #msg="滴滴我的消息我的消息"
 msg="滴滴重要消息重要消息"
+msg="滴滴打卡tg群滴滴打卡tg群"
 MP3file = "c:/cfg/"+msg+".mp3"
 text_to_speech(msg,MP3file)
 #,MP3file+".wav"
