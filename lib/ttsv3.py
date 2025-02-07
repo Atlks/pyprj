@@ -58,7 +58,7 @@ def convert_to_wav(input_file: str, ffmpeg_path: str = "ffmpeg") -> str:
     print(f"input_file= {input_file}")
     output_file = os.path.splitext(input_file)[0] + ".wav"
     
-    cmd = [ffmpeg_path, "-i", input_file, output_file]
+    cmd = [ffmpeg_path, "-y","-i", input_file, output_file]
     print(f"{ffmpeg_path} {' '.join(cmd[1:])}")
 
     process = subprocess.run(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
@@ -85,6 +85,9 @@ msg="滴滴普通消息普通消息"
 #msg="滴滴我的消息我的消息"
 msg="滴滴重要消息重要消息"
 msg="滴滴打卡tg群滴滴打卡tg群"
+msg="滴滴重要滴滴拉卡消息"
+msg="滴滴拉卡滴滴拉卡消息"
+
 MP3file = "c:/cfg/"+msg+".mp3"
 text_to_speech(msg,MP3file)
 #,MP3file+".wav"
