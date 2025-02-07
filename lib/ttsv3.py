@@ -88,6 +88,19 @@ msg="滴滴打卡tg群滴滴打卡tg群"
 msg="滴滴重要滴滴拉卡消息"
 msg="滴滴拉卡滴滴拉卡消息"
 
+
+msg="滴滴重要消息"
+msg="滴滴我的滴滴我的消息"
+msg="滴滴普通消息"
+msg="滴滴我的滴滴我的消息"
+
+msg="line消息"
+msg="viber消息"
+msg="消息微信"
+msg="消息messager"
+msg="消息line"
+msg="消息whatsapp"
+msg="消息微信"
 MP3file = "c:/cfg/"+msg+".mp3"
 text_to_speech(msg,MP3file)
 #,MP3file+".wav"
